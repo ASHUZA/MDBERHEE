@@ -7,7 +7,7 @@ import Menu from './Menu';
 
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import SectionFooter from './SectionFooter';
+
 import PageAccueil from './pages/PageAccueil';
 import PageLivreBible from './pages/PageLivreBible';
 import PageVersionBible from './pages/PageVersionBible';
@@ -32,18 +32,12 @@ function App() {
 
       <BrowserRouter>
 
-        {/* <Menu
-        /> */}
 
-        {/* 
-<Menu
-showprofilfromchild={getidmovies}
-     /> */}
         <switch>
 
 
           <Route exact path="/" component={PageAccueil} />
-          <Route path="/SectionFooter" component={SectionFooter} />
+        
           <Route path="/PageLivreBible">
             <PageLivreBible ShowChap={ShowChap}/>
           </Route>
