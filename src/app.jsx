@@ -5,8 +5,6 @@ import { BrowserRouter } from "react-router-dom";
 import { Route, Switch } from "react-router-dom"
 import Menu from './Menu';
 
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 import PageAccueil from './pages/PageAccueil';
 import PageLivreBible from './pages/PageLivreBible';
