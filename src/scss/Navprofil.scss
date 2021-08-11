@@ -1,0 +1,31 @@
+.Navprofil_box{
+
+    height: 100vh;
+    width: 300px;
+    background-color: rgb(224, 94, 94);
+}
+
+.profil_picture_box{
+    background-color: rgb(71, 70, 70);
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.profil_picture{
+    background-color: #fff;
+    border-radius: 100%;
+    height: 150px;
+    width: 150px;
+}
+.profil_name{
+
+margin-top: 20px;
+color: #fff;
+}
+
+.Navitem_box{
+    height: 500px;
+    background-color: rgb(61, 56, 56);
+}
